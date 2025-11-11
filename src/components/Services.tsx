@@ -13,13 +13,31 @@ const Services = () => {
       number: "02",
       title: "Production",
       description: "Where the magic happens. Our experienced team brings your vision to life with state-of-the-art equipment and creative expertise.",
-      delay: '0.3s'
+      delay: '0.2s'
     },
     {
       number: "03",
       title: "Post-Production",
       description: "The final touch that makes everything shine. From editing to color grading, sound design to visual effects, we polish every detail.",
+      delay: '0.3s'
+    },
+    {
+      number: "04",
+      title: "Social Media Management",
+      description: "Strategic content planning and community engagement. We help you build and maintain a strong presence across all social platforms.",
+      delay: '0.4s'
+    },
+    {
+      number: "05",
+      title: "Content Production",
+      description: "From concept to delivery, we create compelling visual stories. High-quality content tailored to resonate with your audience.",
       delay: '0.5s'
+    },
+    {
+      number: "06",
+      title: "PR & Communications",
+      description: "Strategic public relations that amplify your message. We craft narratives that connect with media and audiences alike.",
+      delay: '0.6s'
     }
   ];
 

@@ -33,9 +33,13 @@ const Hero = () => {
           We frame. We remember.
         </p>
 
-        <div className="flex justify-center items-center animate-scale-in opacity-0" style={{ animationDelay: '0.7s' }}>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 animate-scale-in opacity-0" style={{ animationDelay: '0.7s' }}>
           <Button size="lg" className="text-base px-8 py-6 rounded-full group hover:scale-105 transition-transform duration-300">
             Get In Touch
+            <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+          </Button>
+          <Button size="lg" variant="outline" className="text-base px-8 py-6 rounded-full group hover:scale-105 transition-transform duration-300">
+            View Our Work
             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>

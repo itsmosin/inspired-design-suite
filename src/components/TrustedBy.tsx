@@ -1,14 +1,11 @@
 const TrustedBy = () => {
   const clients = [
-    "Beautiful Destinations",
-    "Nikah Fashion", 
-    "Sayaji Hotels",
-    "Palace",
-    "Hyatt Regency",
-    "Raffles",
-    "Villa Palladio",
-    "HSBC",
-    "Red Bull"
+    "Four Seasons",
+    "Raffles", 
+    "Hyatt",
+    "Red Bull",
+    "Nykaa Fashion",
+    "Hilton"
   ];
 
   return (
