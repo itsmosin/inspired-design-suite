@@ -21,20 +21,20 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black leading-[0.9] mb-8 animate-fade-in tracking-tight opacity-0" style={{ animationDelay: '0.1s' }}>
+        <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-[0.95] mb-6 animate-fade-in tracking-tight opacity-0" style={{ animationDelay: '0.1s' }}>
           We Seize The
           <br />
-          <span className="block mt-2">Perfect Frame.</span>
+          <span className="block mt-1">Perfect Frame.</span>
         </h1>
         
-        <p className="text-xl md:text-2xl lg:text-3xl text-foreground/70 max-w-3xl mx-auto mb-12 animate-slide-up font-light leading-relaxed opacity-0" style={{ animationDelay: '0.4s' }}>
+        <p className="text-base md:text-lg lg:text-xl text-foreground/70 max-w-2xl mx-auto mb-10 animate-slide-up font-normal leading-relaxed opacity-0" style={{ animationDelay: '0.4s' }}>
           In a world rushing forward, we pause.
           <br />
           We frame. We remember.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-scale-in opacity-0" style={{ animationDelay: '0.7s' }}>
-          <Button size="lg" className="text-lg px-10 py-7 rounded-full group hover:scale-105 transition-transform duration-300">
+        <div className="flex justify-center items-center animate-scale-in opacity-0" style={{ animationDelay: '0.7s' }}>
+          <Button size="lg" className="text-base px-8 py-6 rounded-full group hover:scale-105 transition-transform duration-300">
             Get In Touch
             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>
