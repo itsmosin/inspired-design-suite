@@ -35,14 +35,9 @@ const Navigation = () => {
             </a>
           </div>
 
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" className="hidden sm:inline-flex">
-              Login
-            </Button>
-            <Button className="rounded-full">
-              Try Now
-            </Button>
-          </div>
+          <Button size="sm" className="rounded-full">
+            Get Started
+          </Button>
         </div>
       </div>
     </nav>
