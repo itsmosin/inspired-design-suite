@@ -18,17 +18,14 @@ const TrustedBy = () => {
   ];
 
   return (
-    <section className="py-20 md:py-24 bg-background">
-      <div className="container mx-auto px-4 max-w-screen-xl">
-        {/* Divider Line */}
-        <div className="w-full h-px bg-border mb-12" />
-        
-        <h2 className="text-center text-xs md:text-sm font-medium text-muted-foreground mb-14 tracking-[0.2em] uppercase">
+    <section className="py-16 md:py-20 bg-section-bg overflow-hidden">
+      <div className="container mx-auto px-4">
+        <h2 className="text-center text-xs md:text-sm font-medium text-muted-foreground mb-10 md:mb-12 tracking-widest uppercase">
           Brands We've Worked With
         </h2>
         
-        {/* Logo Grid - Desktop: Scrolling, Mobile: 2x3 Grid */}
-        <div className="hidden md:block relative">
+        {/* Scrolling Logo Strip */}
+        <div className="relative">
           <div className="logo-scroll-container">
             <div className="logo-scroll-track">
               {/* First set of logos */}
@@ -40,7 +37,7 @@ const TrustedBy = () => {
                   <img 
                     src={client.logo} 
                     alt={client.name}
-                    className="h-14 lg:h-16 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                    className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
                   />
                 </div>
               ))}
@@ -53,28 +50,12 @@ const TrustedBy = () => {
                   <img 
                     src={client.logo} 
                     alt={client.name}
-                    className="h-14 lg:h-16 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                    className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
                   />
                 </div>
               ))}
             </div>
           </div>
-        </div>
-        
-        {/* Mobile Grid */}
-        <div className="grid grid-cols-2 gap-8 md:hidden max-w-md mx-auto">
-          {clients.slice(0, 6).map((client, index) => (
-            <div 
-              key={index}
-              className="flex items-center justify-center p-4"
-            >
-              <img 
-                src={client.logo} 
-                alt={client.name}
-                className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
-              />
-            </div>
-          ))}
         </div>
       </div>
     </section>

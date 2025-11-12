@@ -15,12 +15,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        headline: ['Sora', 'Inter', 'sans-serif'],
-        subtext: ['Space Grotesk', 'sans-serif'],
       },
       colors: {
-        'deep-black': '#0E0E0E',
-        'muted-gold': '#D4AF37',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
