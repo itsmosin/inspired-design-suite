@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroBackground from "@/assets/hero-background.png";
+import BrandsCarousel from "@/components/BrandsCarousel";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
@@ -15,18 +16,18 @@ const Hero = () => {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="absolute inset-0 bg-background/40" />
+        <div className="absolute inset-0" />
         <div className="halftone-overlay absolute inset-0" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center -mt-20">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-[1.1] mb-6 animate-fade-in tracking-tight opacity-0" style={{ animationDelay: '0.1s' }}>
+      <div className="relative z-10 container mx-auto px-4 text-center font-poppins">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-roboto-condensed font-bold leading-[1.0] mb-6 animate-fade-in tracking-tight opacity-0" style={{ animationDelay: '0.1s' }}>
           Framing Stories<br />
           That Move the World.
         </h1>
         
-        <p className="text-sm md:text-base text-foreground/60 max-w-xl mx-auto mb-8 animate-slide-up font-normal leading-relaxed opacity-0" style={{ animationDelay: '0.3s' }}>
+        <p className="text-base md:text-lg text-foreground/70 max-w-2xl mx-auto mb-10 animate-slide-up font-normal leading-relaxed opacity-0" style={{ animationDelay: '0.3s' }}>
           For brands that believe in emotion, not just exposure.
         </p>
 
@@ -53,6 +54,8 @@ const Hero = () => {
             </a>
           </Button>
         </div>
+
+        <BrandsCarousel />
       </div>
     </section>
   );
