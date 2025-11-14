@@ -39,7 +39,7 @@ const Navigation = () => {
             asChild
           >
             <a href="https://calendly.com/business-cadrage" target="_blank" rel="noopener noreferrer">
-              Get Started
+              Get In Touch
             </a>
           </Button>
         </div>

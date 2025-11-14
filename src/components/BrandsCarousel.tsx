@@ -1,10 +1,10 @@
-import rafflesLogo from "@/assets/raffles-logo.jpeg";
+import rafflesLogo from "@/assets/raffles-logo.png";
 import hyattLogo from "@/assets/hyatt-logo.png";
 import fourSeasonsLogo from "@/assets/four-seasons-logo.png";
 import redBullLogo from "@/assets/red-bull-logo.png";
-import fairmontLogo from "@/assets/fairmont-logo.webp";
+import fairmontLogo from "@/assets/fairmont-logo.png";
 import beautifulDestinationsLogo from "@/assets/beautiful-destinations-logo.png";
-import sayajiLogo from "@/assets/sayaji-logo.jpg";
+import sayajiLogo from "@/assets/sayaji-logo.png";
 
 const BrandsCarousel = () => {
   const brands = [
