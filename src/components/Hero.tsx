@@ -37,7 +37,7 @@ const Hero = () => {
             className="text-base px-8 py-4 rounded-full group hover:scale-105 hover:shadow-xl transition-all duration-300 ease-out"
             asChild
           >
-            <a href="https://calendly.com/business-cadrage" target="_blank" rel="noopener noreferrer">
+            <a href="https://docsend.com/view/68mcyhj3ipcprzb2" target="_blank" rel="noopener noreferrer">
               View Our Work
               <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
             </a>
